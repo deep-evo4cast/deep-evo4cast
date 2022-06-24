@@ -1,3 +1,3 @@
 [submodule "xtal_pompd_inputs/pompd"]
 	path = xtal_pompd_inputs/pompd
-	url = https://forgemia.inra.fr/thomas.schiex/pompd
+	url = https://forgemia.inra.fr/thomas.schiex/pompd.git
