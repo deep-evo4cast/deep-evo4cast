@@ -10,7 +10,7 @@ This git repository includes submodules. Please clone recursively:
 
 We assume you have installed PyRosetta (release r425).
 
-Parameters for pompd are included in the xtal_pompd_inputs/pars directory. They match the pompd defaults except for the following ones:
+Parameters for [pompd](https://forgemia.inra.fr/thomas.schiex/pompd) are included in the xtal_pompd_inputs/pars directory. They match the pompd defaults except for the following ones:
 
 * scorefunction : beta_genpot
 * nbenum : ALL
@@ -28,7 +28,7 @@ For more information about pompd and how to use it, please refer to the document
 
 ## Running ToulBar2 in parallel mode to compute energies on monomers
 
-Clone toulbar2 "cpd" branch from its repository (https://github.com/toulbar2/toulbar2) and compile it with MPI option turned on, then go to the xtal_pompd_inputs directory and run:
+Clone toulbar2 "cpd" branch from its [repository](https://github.com/toulbar2/toulbar2) and compile it with MPI option turned on, then go to the xtal_pompd_inputs directory and run:
 
 > make monomer.cfn.gz
 
