@@ -1,12 +1,14 @@
-# viral-infection
+# Deep Evolutionary Forecasting
 
-This assumes you have installed PyRosetta (release r425).
+This README documents the creation of potential variants, using files in the xtal_pompd_inputs folder. Other README.md files are available in other folders. 
 
 This git repository includes submodules. Please clone recursively:
 
 > git clone --recurse-submodules git@github.com:deep-evo4cast/deep-evo4cast.git
 
 ## Running pompd for sequence enumeration (xtal_pompd_inputs folder)
+
+We assume you have installed PyRosetta (release r425).
 
 Parameters for pompd are included in the xtal_pompd_inputs/pars directory. They match the pompd defaults except for the following ones:
 
