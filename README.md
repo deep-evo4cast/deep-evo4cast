@@ -40,4 +40,4 @@ Then, all energies can be computed on the sequences enumerated on the complex us
 
 Where 'monomer.bow' is a file containing the string "monomer.cfn.gz" and 'complex.enum' is the output file from the enumeration on the complex.
 
-This will generate a report file ('complex_negative.txt') containing all sequences, their energy on the complex form, pn the monomeric form, and the difference between the two (dG)
+This will generate a report file ('complex_negative.txt') containing all sequences, their energy on the complex form, on the monomeric form, and the difference between the two (dG)
