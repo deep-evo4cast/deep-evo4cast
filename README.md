@@ -4,7 +4,7 @@ This assumes you have installed PyRosetta (release r425).
 
 This git repository includes submodules. Please clone recursively:
 
-> git clone --recurse-submodules git@github.com:tschiex/viral-infection.git
+> git clone --recurse-submodules git@github.com:deep-evo4cast/deep-evo4cast.git
 
 ## Running pompd for sequence enumeration (xtal_pompd_inputs folder)
 
