@@ -1,0 +1,30 @@
+-in:include_sugars
+-maintain_links
+-auto_detect_glycan_connections
+-alternate_3_letter_codes pdb_sugar
+-write_pdb_link_records
+-write_glycan_pdb_codes
+-ideal_sugars
+-score:set_weights sugar_bb .5
+
+-ignore_unrecognized_res
+-ignore_zero_occupancy false
+-load_PDB_components false
+
+-pdb_comments
+-scorefile_format json
+-skip_connect_info
+
+-nblist_autoupdate
+
+-jd2:delete_old_poses
+-other_pose_to_scorefile
+
+#Optimize Hydrogen even if present
+-no_optH false
+
+#Consider flipping HIS, ASN, and GLN during hydrogen placement optimization
+-flip_HNQ
+
+#Use input sidechains
+-use_input_sc

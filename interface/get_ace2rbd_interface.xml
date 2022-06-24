@@ -1,0 +1,20 @@
+<ROSETTASCRIPTS>
+	<RESIDUE_SELECTORS>
+
+		<Chain    name="chain_A" chains="A"/>
+		<Chain    name="chain_B" chains="B"/>
+		<InterfaceByVector name="int_vec" cb_dist_cut="11.0" nearby_atom_cut="5.5" vector_angle_cut="75.0" vector_dist_cut="9.0" grp1_selector="chain_B" grp2_selector="chain_A"/>
+
+	</RESIDUE_SELECTORS>
+
+	<SIMPLE_METRICS>
+		<SelectedResiduesMetric name="int_by_vec_rbd_pdb" residue_selector="int_vec" custom_type="pdb_numbering" rosetta_numbering="0"/>
+	</SIMPLE_METRICS>
+
+	<MOVERS>
+		<RunSimpleMetrics name="metrics" metrics="int_by_vec_rbd_pdb"/>
+	</MOVERS>
+	<PROTOCOLS>
+		<Add mover="metrics"/>
+	</PROTOCOLS>
+</ROSETTASCRIPTS>
